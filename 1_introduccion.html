@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octavio</title>
+    <link rel="icon" type="o/jpg" href="images/o.jpg">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)" />
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img src="images/o.jpg"  width="100" /> 
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#eventos">About me</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Let's work together</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>
+                Hey! I'm <strong> Octavio,</strong>  <br/> python and C++ <strong>developer.</strong> <br> I love physics and science <strong>as well</strong> 
+            </h1>
+            <img class="hero-image" src="images/2_photo.JPG" width="500" height="300" alt="">
+        </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2>Featured projects </h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Posts app</h3>
+                    <h6 class="project-course">Swift</h6>
+                    <p class="project-date"> <small> <strong>Date: </strong> 08/11/2019</small> </p>
+                    <p class="project-url"> <small> <strong>You can download it on: </strong> </small>
+                        <a href="https://github.com/tavo-molina/posts-app/tree/master">https://github.com/tavo-molina/posts-app/tree/master</a> </p>
+                    <p class="project-description"> I'm starting in the world of iOS development </p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/3_tweets.jpg" alt="" width="500"/>
+                </figure>  
+            </article>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">How to be a good leader?</h3>
+                    <h6 class="project-course">Youtube</h6>
+                    <p class="project-date"> <small> <strong>Date: </strong> 19/09/2020</small> </p>
+                    <p class="project-url"> <small> <strong>Watch in </strong> <a href="https://www.youtube.com/watch?v=3Xe59ZiudGE&t=1374s&ab_channel=TavoChido"> https://www.youtube.com/watch?v=3Xe59ZiudGE&t=1374s&ab_channel=TavoChido </a></small> </p>
+                    <p class="project-description">Talk with a friend of mine, Supply Planning Global Leader in Philips</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/mini1.jpg" alt="" width="500"/>
+                </figure>  
+            </article>
+        </div>
+    </section>
+    <div class="container">
+        <h2 class="event-list-title">More about me</h2>
+    </div>
+    <section id="eventos" class="event-list">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/4-image.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">College education</h3>
+                    <p class="event-description">Physics and CS freshman at <a href="https://www.linkedin.com/school/tsinghua-university/"> Tsinghua University </href>  </p>
+                    <a class="event-url" href="https://www.tsinghua.edu.cn/en/index.htm" target="_blank"> Webpage </a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/5-image.png" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Proficiency in</h3>
+                    <p class="event-description">Python, C++, Swift, English, Chinese and Spanish
+                        Experience with HTML,CSS,Javascript
+                    </p>
+                    <!-- <a class="event-url" href="https://www.youtube.com/watch?v=3Xe59ZiudGE&t=1374s" target="_blank"> Ver Platica </a> -->
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/6-image.PNG" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Prizes</h3>
+                    <p class="event-description">Mexican Math Olympiad Bronze medal, ESI-AMLAT international science prize, Carl Friedrich Gauss 2nd National Place, Chemistry National Contest Finalist, Mexican Space Agency Space Bootcamp Semifinalist</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=3Xe59ZiudGE&t=1374s" target="_blank"> Ver Platica </a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/7-im.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Read CV</h3>
+                    <p class="event-description">Whole Resume</p>
+                    <a class="event-url" href="images/CURRICULUM VITAE (1).pdf" target="_blank"> Download </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="contacto" class="contact">
+        <div class="container">
+            <form action="/suscripcion/" class="form-email">
+                <H3>Send me an e-mail!</H3>
+              <!-- <input type="text" placeholder="Dejanos tu email" id="email">
+                <button>Enviar</button> -->
+                <p> jose.octavio@ciencias.unam.mx</p>
+            </form>
+            <div class="social">
+                <a href="https://github.com/tavo-molina" class="social-link github"></a>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-octavio-molina-nava-938a901b1/" class="social-link linkedin"></a>
+                <a href="https://www.facebook.com/lito.gonzalez.904/" class="social-link facebook"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <!-- <p>Cursito <img src="images/1-im.jpg" alt="jeje" width="100"> </p> -->
+            </div>
+            <div>
+                <p>Designed with <3 by <a href="https://www.facebook.com/lito.gonzalez.904/">Me</a> </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
